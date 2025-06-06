@@ -2,16 +2,18 @@
 
 > 基于 Express 的标准化后端开发脚手架，集成 JWT 认证、Swagger 文档、Redis 缓存和 Sequelize ORM 数据库操作。
 
-## 功能特性
+![Express Scaffold Banner](https://via.placeholder.com/800x200?text=Express+Scaffold+API)
 
-✅ JWT身份验证  
-✅ Redis缓存系统  
-✅ MySQL数据库集成  
-✅ Swagger API文档  
-✅ Winston日志系统  
-✅ 多环境配置管理  
-✅ 健康检查端点  
-✅ 压力测试脚本
+## 🌟 功能特性
+
+- ✅ **JWT身份验证**
+- ✅ **Redis缓存系统**
+- ✅ **MySQL数据库集成**
+- ✅ **Swagger API文档**
+- ✅ **Winston日志系统**
+- ✅ **多环境配置管理**
+- ✅ **健康检查端点**
+- ✅ **压力测试脚本**
 
 ## 🧩 技术栈
 
@@ -75,7 +77,7 @@ REDIS_PORT=your_redis_port_here
 
 ## 📚 API 文档
 
-访问 http://localhost:3000/api-docs 查看完整的 RESTful API 接口文档。支持在线调试与请求测试。
+访问 [API 文档](http://localhost:3000/api-docs) 查看完整的 RESTful API 接口文档。支持在线调试与请求测试。
 
 - 使用 `bearerAuth` 设置 JWT Token 进行认证测试
 - 所有接口返回统一格式：
@@ -124,19 +126,20 @@ npm start
 npm install
 ```
 
-## 环境配置
+## 🌐 环境配置
 
 复制示例文件并配置：
+
 ```bash
 cp .env.development .env
 ```
 
-## API文档
+## 📊 API文档
 
-访问地址：http://localhost:3000/api-docs
+访问地址：[http://localhost:3000/api-docs](http://localhost:3000/api-docs)
 
+## 🧪 测试验证
 
-## 测试验证
 ```bash
 # 运行压力测试
 npm install -g artillery
@@ -151,4 +154,8 @@ artillery run test/loadTest.js
 
 ---
 
-欢迎基于此模板进行二次开发或功能扩展！
+🎉 **欢迎基于此模板进行二次开发或功能扩展！**
+
+[![GitHub Issues](https://img.shields.io/github/issues/yourusername/express-scaffold)](https://github.com/yourusername/express-scaffold/issues)
+[![License](https://img.shields.io/github/license/yourusername/express-scaffold)](https://github.com/yourusername/express-scaffold/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/express-scaffold/pulls)
