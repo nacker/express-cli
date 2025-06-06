@@ -2,8 +2,6 @@
 
 > 基于 Express 的标准化后端开发脚手架，集成 JWT 认证、Swagger 文档、Redis 缓存和 Sequelize ORM 数据库操作。
 
-![Express Scaffold Banner](https://via.placeholder.com/800x200?text=Express+Scaffold+API)
-
 ## 🌟 功能特性
 
 - ✅ **JWT身份验证**
@@ -49,6 +47,8 @@ express-cli/
 ## 🛠️ 功能模块
 
 ### ✅ 用户管理模块
+
+![丝袜哥](doc/api-docs.png)
 
 | 接口         | 方法 | 描述             | 是否需要认证 |
 |--------------|------|------------------|---------------|
@@ -155,6 +155,7 @@ artillery run test/loadTest.js
 ---
 
 🎉 **欢迎基于此模板进行二次开发或功能扩展！**
+🎉 **让我们一起为开源做出自己的一份力量！**
 
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/express-scaffold)](https://github.com/yourusername/express-scaffold/issues)
 [![License](https://img.shields.io/github/license/yourusername/express-scaffold)](https://github.com/yourusername/express-scaffold/blob/main/LICENSE)
