@@ -1,5 +1,5 @@
 import {Sequelize} from "sequelize";
-import config from './config.js'; // 确认扩展名已正确
+import config from "./config";
 
 const sequelize = new Sequelize({
   dialect: config.db.dialect || 'mysql',
