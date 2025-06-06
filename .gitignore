@@ -1,0 +1,59 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.example
+
+# Build artifacts
+/dist/
+/build/
+/tmp/
+/out/
+/public/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+/logs/
+*.log
+*.sqlite
+*.sqlite3
+
+# Test artifacts
+.nyc_output/
+coverage/
+__tests__/
+test-results/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Package distributions
+*.tgz
+*.zip
+*.tar.gz
+
+# TypeScript
+*.tsbuildinfo
