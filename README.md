@@ -158,6 +158,6 @@ artillery run test/loadTest.js
 🎉 **欢迎基于此模板进行二次开发或功能扩展！**
 🎉 **让我们一起为开源做出自己的一份力量！**
 
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/express-scaffold)](https://github.com/yourusername/express-scaffold/issues)
-[![License](https://img.shields.io/github/license/yourusername/express-scaffold)](https://github.com/yourusername/express-scaffold/blob/main/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/express-scaffold/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/nacker/express-cli)](https://github.com/nacker/express-cli/issues)
+[![License](https://img.shields.io/github/license/nacker/express-cli)](https://github.com/nacker/express-cli/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/nacker/express-cli/pulls)
