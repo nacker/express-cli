@@ -1,6 +1,7 @@
 # Express Scaffold API 脚手架项目说明
 
 > 基于 Express 的标准化后端开发脚手架，集成 JWT 认证、Swagger 文档、Redis 缓存和 Sequelize ORM 数据库操作。
+> 完善中...
 
 ## 🌟 功能特性
 
