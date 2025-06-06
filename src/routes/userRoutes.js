@@ -63,6 +63,8 @@ router.use(authenticate());
  *   get:
  *     tags: [Users]
  *     summary: 获取所有用户
+ *     security:
+ *       - bearerAuth: []
  *     responses:
  *       200:
  *         description: 用户列表获取成功
@@ -77,6 +79,8 @@ router.route('/')
  *   get:
  *     tags: [Users]
  *     summary: 获取指定用户
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *       - name: id
  *         in: path
